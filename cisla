@@ -9,7 +9,7 @@ for i in range(zacatek, konec + 1):
         print(f"{i:>010}")
 
 """
-if cislo < 0:
+if x < 0:
     print(f '{cislo: 10.2f}')
 else:
     print(f '{cislo: 010
