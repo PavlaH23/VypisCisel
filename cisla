@@ -1,0 +1,16 @@
+x = int(input("Zadej libovolné číslo: "))
+zacatek = x * (-1)
+konec = x
+
+for i in range(zacatek, konec + 1):
+    if i < 0:
+        print(f"{i:0.2f}")
+    else:
+        print(f"{i:>010}")
+
+"""
+if cislo < 0:
+    print(f '{cislo: 10.2f}')
+else:
+    print(f '{cislo: 010
+    """
